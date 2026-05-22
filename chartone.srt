@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:04,000
+Infographics are a creative and communicative way to tell stories with data.
+
+2
+00:00:04,000 --> 00:00:10,000
+The core idea behind them is blending visual elements with charts to create a compelling narrative.
+
+3
+00:00:10,000 --> 00:00:15,000
+However, for non-design experts, designing from scratch is challenging.
+
+4
+00:00:15,000 --> 00:00:22,000
+Specifically, how to make the inserted chart style consistency and visual harmony with the overall design.
+
+5
+00:00:22,000 --> 00:00:28,000
+To achieve that, there are lots of design decisions should be made, such as which color palette to use.
+
+6
+00:00:28,000 --> 00:00:33,000
+How to arrange the layout? How can we keep elements consistent in style?
+
+7
+00:00:33,000 --> 00:00:38,000
+And we found all these answers can be solved by selecting a well-designed template as reference.
+
+8
+00:00:38,000 --> 00:00:40,000
+We propose chart tone.
+
+9
+00:00:40,000 --> 00:00:48,000
+Starting from a well-designed template, it binds chart elements, including text and data relevant components such as line elements,
+
+10
+00:00:48,000 --> 00:00:51,000
+with visual elements to achieve a seamless integration.
+
+11
+00:00:51,000 --> 00:00:57,000
+For example, let's import some data and create a bar chart about Safari animals.
+
+12
+00:00:57,000 --> 00:01:05,000
+Next, we drag a template image onto the canvas in the template frame.
+
+13
+00:01:05,000 --> 00:01:11,000
+The template is then decomposed into two parts, a background image and individual design elements.
+
+14
+00:01:11,000 --> 00:01:18,000
+Since the template doesn't contain visuals for Safari animals, we use a duck illustration as a reference.
+
+15
+00:01:18,000 --> 00:01:24,000
+With the style propagation function, we generate new elements, a zebra, a giraffe, and a lion.
+
+16
+00:01:24,000 --> 00:01:30,000
+These generated animals share the same artistic style and pose as the duck, ensuring consistency.
+
+17
+00:01:30,000 --> 00:01:34,000
+To blend them with the chart, we use the binding function.
+
+18
+00:01:34,000 --> 00:01:43,000
+Clicking the Binding button allows us to establish bidirectional connections between objects, specifying which two elements should be combined.
+
+19
+00:01:43,000 --> 00:01:49,000
+Or, to speed things up, we can group these frames and bind them to the entire chart.
+
+20
+00:01:50,000 --> 00:01:58,000
+Each frame will then automatically link to a bar element, bind them one by one, or group multiple bindings together for efficiency.
+
+21
+00:01:58,000 --> 00:02:06,000
+The generated animals are automatically aligned with the height of the original chart while preserving their visual style.
+
+22
+00:02:10,000 --> 00:02:16,000
+We can compose these visual elements on the background image and add decorations for extra detail.
+
+23
+00:02:19,000 --> 00:02:28,000
+Beyond visuals, we also support text visual binding, enabling the generation of stylized text that matches the overall design.
+
+24
+00:02:35,000 --> 00:02:45,000
+Users can browse the layout library for chart and template recommendations, and apply them to the canvas with a single click.
+
+25
+00:02:46,000 --> 00:02:53,000
+To make the final infographic even more polished, we can refine it with lighting and shadow effects.
+
+26
+00:02:55,000 --> 00:02:58,000
+Or animate the composition to add dynamic story chart tone.
+
+27
+00:02:58,000 --> 00:03:08,000
+We enable charts to seamlessly integrate into design templates, blending data, text, and visuals into infographics that tell a visual story about data.

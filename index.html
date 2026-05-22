@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Yusong Zhu is a Ph.D. student in Computer Science at Brown University working on visual representation and visual communication."
+    />
+    <title>Yusong Zhu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="tabicon.png" />
+    <link rel="stylesheet" href="styles-v5-bf5700.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+  <body>
+    <aside class="toc-sidebar" aria-label="Page sections">
+      <nav class="toc-panel" id="toc-panel" aria-label="Page sections">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#about">About</a></li>
+          <!-- <li><a class="nav-link" href="#interests">Research Interests</a></li> -->
+          <li><a class="nav-link" href="#goals">Research Goals</a></li>
+          <li><a class="nav-link" href="#publications">Publications</a></li>
+          <li><a class="nav-link" href="#activities">Activities</a></li>
+          <li><a class="nav-link" href="#education">Education</a></li>
+        </ul>
+      </nav>
+      <div class="toc-edge" aria-hidden="true"></div>
+    </aside>
+
+    <div class="page-shell">
+      <div class="layout">
+        <aside class="rail reveal" aria-label="Profile overview">
+          <figure class="rail-portrait">
+            <img src="yusong_profile.jpg" alt="Portrait of Yusong Zhu" />
+          </figure>
+          <!-- <p class="eyebrow"></p> -->
+          <h1>Yusong Zhu</h1>
+          <p class="lede">
+            <span class="contact-mono">Office: GDC 4.720<br />Email: yusong.zhu [at] brown [dot] edu</span>
+          </p>
+          <div class="social-row" aria-label="External links">
+            <a class="social-link" href="https://scholar.google.com/citations?user=serendipitysx" aria-label="Google Scholar" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4 4 9l8 5 8-5-8-5Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M6.5 10.2V15c0 1.8 2.5 3.3 5.5 3.3s5.5-1.5 5.5-3.3v-4.8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+              <span class="social-link-text">Scholar</span>
+            </a>
+            <a class="social-link" href="https://github.com/serendipitysx" aria-label="GitHub" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5a7.5 7.5 0 0 0-2.4 14.6c.38.07.52-.17.52-.38v-1.3c-2.1.46-2.54-1-2.54-1-.34-.86-.84-1.1-.84-1.1-.69-.48.05-.47.05-.47.76.06 1.16.78 1.16.78.68 1.17 1.78.83 2.21.64.07-.5.27-.84.49-1.03-1.73-.2-3.55-.87-3.55-3.88 0-.86.31-1.56.82-2.11-.08-.2-.36-1 .08-2.08 0 0 .67-.22 2.2.81a7.6 7.6 0 0 1 4 0c1.53-1.03 2.2-.81 2.2-.81.44 1.08.16 1.88.08 2.08.51.55.82 1.25.82 2.11 0 3.02-1.82 3.68-3.56 3.88.28.24.53.71.53 1.44v2.13c0 .21.14.45.53.38A7.5 7.5 0 0 0 12 4.5Z" fill="currentColor"/></svg>
+              <span class="social-link-text">GitHub</span>
+            </a>
+            <a class="social-link" href="https://x.com/serendipitysx" aria-label="X (Twitter)" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h3.7l4 5.4L18.7 5H20l-6.1 7.1L20 19h-3.7l-4.3-5.8L7.6 19H4.3l6.5-7.7L5 5Z" fill="currentColor"/></svg>
+              <span class="social-link-text">Twitter</span>
+            </a>
+            <a class="social-link" href="cv.pdf" aria-label="Download CV (PDF)" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M7 3h7.2L19 7.8V21H7V3z"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.65"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M14 3v5h5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.65"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9.5 14h5M9.5 17h5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <span class="social-link-text">CV (April 2026)</span>
+            </a>
+          </div>
+
+          <section class="rail-news" aria-labelledby="rail-news-heading">
+            <div class="rail-news-box">
+              <div class="rail-news-scroll" role="region" aria-label="Recent news list">
+                <p class="rail-news-title" id="rail-news-heading">News</p>
+                <div class="rail-news-list">
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2025-05">May 2025</time>
+                  <p class="rail-news-text">Internship at Adobe (San Jose)</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2025-03">Mar 2025</time>
+                  <p class="rail-news-text">BizGen accepted to CVPR 2025</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2025-03">Mar 2025</time>
+                  <p class="rail-news-text">VizTA accepted to EuroVIS 2025</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2024-07">Jul 2024</time>
+                  <p class="rail-news-text">ModalChorus accepted to IEEE VIS 2024</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2024-01">Jan 2024</time>
+                  <p class="rail-news-text">TypeDance accepted to CHI 2024</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2023-12">Dec 2023</time>
+                  <p class="rail-news-text">MetroBUX accepted to IEEE TITS</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2023-10">Oct 2023</time>
+                  <p class="rail-news-text">Presented ChartSpark at IEEE VIS</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2023-07">Jul 2023</time>
+                  <p class="rail-news-text">ChartSpark accepted to IEEE VIS</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2023-06">Jun 2023</time>
+                  <p class="rail-news-text">Presented WYTIWYR at EuroVIS</p>
+                </article>
+                <article class="rail-news-item">
+                  <time class="rail-news-date" datetime="2022-09">Sep 2022</time>
+                  <p class="rail-news-text">Started visualization research at HKUST CIVAl Lab</p>
+                </article>
+                </div>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <main id="main">
+          <section id="about" class="section reveal" aria-labelledby="about-heading">
+            <div class="section-head">
+              <h2 id="about-heading">About</h2>
+            </div>
+            <div class="section-body">
+              <div class="prose prose-flow">
+                <p>Hi, welcome to my corner of the Internet!</p>
+                <p>
+                  I am a Ph.D. student in Computer Science at <a href="https://www.utexas.edu/" style="color: var(--accent)" target="_blank" rel="noopener noreferrer">UT Austin</a>, advised by Prof. David Laidlaw in the
+                  <strong>Brown Visual Computing Lab</strong>.
+                </p>
+                <p>
+                  Previously: <strong>MPhil in Computational Arts</strong>, HKUST
+                  (Guangzhou); <strong>Bachelor in Communication Engineering</strong>,
+                  University of Electronic Science and Technology of China (UESTC).
+                </p>
+                <p>
+                  My research explores <strong>visual representation and visual communication</strong>
+                  to help explain complex ideas and empower humans with effective
+                  visual communication tools.
+                </p>
+              </div>
+            </div>
+          </section>
+<!-- 
+          <section id="interests" class="section reveal" aria-labelledby="interests-heading">
+            <div class="section-head">
+              <h2 id="interests-heading">Research Interests</h2>
+            </div>
+            <div class="chip-row">
+              <span class="chip">Computer Vision</span>
+              <span class="chip">Data Visualization</span>
+              <span class="chip">Visual Design</span>
+            </div>
+          </section> -->
+
+          <section id="goals" class="section reveal" aria-labelledby="goals-heading">
+            <div class="section-head">
+              <h2 id="goals-heading">Research Goals</h2>
+            </div>
+            <div class="prose narrow">
+              <p>
+                With <strong>computer vision as design material</strong> and
+                <strong>user intent as a design constraint</strong>, my work aims
+                to support multiple stages of the visualization and graphic design
+                pipeline.
+              </p>
+            </div>
+            <div
+              class="research-flow"
+              role="img"
+              aria-label="Research themes: Creativity connects Blending, Visualization, and Graphics."
+            >
+              <div class="research-flow-hub">
+                <span class="research-theme-tag research-theme-tag--hub">Creativity</span>
+              </div>
+              <svg
+                class="research-flow-lines"
+                viewBox="0 0 420 72"
+                preserveAspectRatio="xMidYMin meet"
+                aria-hidden="true"
+              >
+                <path
+                  d="M210 2V24M70 24H350M70 24V54M210 24V54M350 24V54"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <div class="research-flow-branches">
+                <div class="research-flow-branch">
+                  <span class="research-theme-tag">Blending</span>
+                </div>
+                <div class="research-flow-branch">
+                  <span class="research-theme-tag">Visualization</span>
+                </div>
+                <div class="research-flow-branch">
+                  <span class="research-theme-tag">Graphics</span>
+                </div>
+              </div>
+            </div>
+            <div class="goal-stack">
+              <article class="goal-line">
+                <span class="goal-index">1</span>
+                <p>Exploring novel visual designs for representing complex ideas.</p>
+              </article>
+              <article class="goal-line">
+                <span class="goal-index">2</span>
+                <p>Enhancing intent-aware workflows to facilitate design processes.</p>
+              </article>
+              <article class="goal-line">
+                <span class="goal-index">3</span>
+                <p>Empowering users with tools for effective visual communication.</p>
+              </article>
+            </div>
+          </section>
+
+          <section id="publications" class="section reveal" aria-labelledby="publications-heading">
+            <div class="section-head publications-head">
+              <h2 id="publications-heading">Publications</h2>
+              <div class="pub-switcher" role="tablist" aria-label="Publication views">
+                <button class="pub-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="pub-selected" id="tab-selected">Selected</button>
+                <button class="pub-tab" type="button" role="tab" aria-selected="false" aria-controls="pub-all" id="tab-all">All by Date</button>
+              </div>
+            </div>
+
+            <div class="pub-panel is-active" id="pub-selected" role="tabpanel" aria-labelledby="tab-selected">
+              <article class="pub-feature">
+                <div class="pub-body">
+                  <div class="pub-meta-row">
+                    <p class="pub-venue">CVPR 2025</p>
+                    <div class="pub-tags" aria-label="Research themes">
+                      <span class="research-theme-tag">Blending</span>
+                    </div>
+                  </div>
+                  <h3><span class="pub-acronym">BizGen</span><span class="pub-subtitle">Advancing Article-level Visual Text Rendering for Infographics Generation</span></h3>
+                  <p class="pub-tldr"><span>TL;DR</span> Render article-level text directly inside infographic generation with tighter visual control.</p>
+                  <p class="pub-authors">
+                    Yuyang Peng, Shishi Xiao, Keming Wu, Qisheng Liao, Bohan Chen,
+                    Kevin Lin, Danqing Huang, Ji Li, Yuhui Yuan
+                  </p>
+                  <div class="pub-links" aria-label="BizGen links">
+                    <a class="pub-link is-primary" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+                    <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Project</a>
+                    <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-bizgen-selected" data-bib-target="bib-bizgen-selected">BibTeX</button>
+                  </div>
+                  <div class="pub-bib-card" id="bib-bizgen-selected" hidden>
+                    <pre>@inproceedings{peng2025bizgen,
+  title={Advancing Article-level Visual Text Rendering for Infographics Generation},
+  author={Peng, Yuyang and Xiao, Shishi and Wu, Keming and Liao, Qisheng and Chen, Bohan and Lin, Kevin and Huang, Danqing and Li, Ji and Yuan, Yuhui},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2025}
+}</pre>
+                  </div>
+                </div>
+              </article>
+
+              <article class="pub-feature">
+                <div class="pub-body">
+                  <div class="pub-meta-row">
+                    <p class="pub-venue">CHI 2024</p>
+                    <div class="pub-tags" aria-label="Research themes">
+                      <span class="research-theme-tag">Graphics</span>
+                    </div>
+                  </div>
+                  <h3><span class="pub-acronym">TypeDance</span><span class="pub-subtitle">Creating Semantic Typographic Logos from Image through Personalized Generation</span></h3>
+                  <p class="pub-tldr"><span>TL;DR</span> Generate semantic typographic logos from an image with personalized control.</p>
+                  <p class="pub-authors">Shishi Xiao, Liangwei Wang, Xiaojuan Ma, Wei Zeng</p>
+                  <div class="pub-links" aria-label="TypeDance links">
+                    <a class="pub-link is-primary" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+                    <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Project</a>
+                    <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-typedance-selected" data-bib-target="bib-typedance-selected">BibTeX</button>
+                  </div>
+                  <div class="pub-bib-card" id="bib-typedance-selected" hidden>
+                    <pre>@inproceedings{xiao2024typedance,
+  title={Creating Semantic Typographic Logos from Image through Personalized Generation},
+  author={Xiao, Shishi and Wang, Liangwei and Ma, Xiaojuan and Zeng, Wei},
+  booktitle={Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI)},
+  year={2024}
+}</pre>
+                  </div>
+                </div>
+              </article>
+
+              <article class="pub-feature">
+                <div class="pub-body">
+                  <div class="pub-meta-row">
+                    <p class="pub-venue">IEEE VIS / TVCG 2023</p>
+                    <div class="pub-tags" aria-label="Research themes">
+                      <span class="research-theme-tag">Visualization</span>
+                    </div>
+                  </div>
+                  <h3><span class="pub-acronym">ChartSpark</span><span class="pub-subtitle">Let the Chart Spark: Embedding Semantic Context into Chart with Text-to-Image Generative Model</span></h3>
+                  <p class="pub-tldr"><span>TL;DR</span> Inject semantic context into chart generation using a text-to-image model.</p>
+                  <p class="pub-authors">Shishi Xiao, Suizi Huang, Yue Lin, Yilin Ye, Wei Zeng</p>
+                  <div class="pub-links" aria-label="ChartSpark links">
+                    <a class="pub-link is-primary" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+                    <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Project</a>
+                    <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-chartspark-selected" data-bib-target="bib-chartspark-selected">BibTeX</button>
+                  </div>
+                  <div class="pub-bib-card" id="bib-chartspark-selected" hidden>
+                    <pre>@article{xiao2023chartspark,
+  title={Let the Chart Spark: Embedding Semantic Context into Chart with Text-to-Image Generative Model},
+  author={Xiao, Shishi and Huang, Suizi and Lin, Yue and Ye, Yilin and Zeng, Wei},
+  journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
+  year={2023}
+}</pre>
+                  </div>
+                </div>
+              </article>
+
+              <article class="pub-feature">
+                <div class="pub-body">
+                  <div class="pub-meta-row">
+                    <p class="pub-venue">EuroVis 2023</p>
+                    <div class="pub-tags" aria-label="Research themes">
+                      <span class="research-theme-tag">Visualization</span>
+                    </div>
+                  </div>
+                  <h3><span class="pub-acronym">WYTIWYR</span><span class="pub-subtitle">A User Intent-Aware Framework with Multi-modal Inputs for Visualization Retrieval</span></h3>
+                  <p class="pub-tldr"><span>TL;DR</span> Retrieve visualizations with a multimodal workflow shaped by user intent.</p>
+                  <p class="pub-authors">Shishi Xiao, Yihan Hou, Cheng Jin, Wei Zeng</p>
+                  <div class="pub-links" aria-label="WYTIWYR links">
+                    <a class="pub-link is-primary" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                    <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+                    <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Project</a>
+                    <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-wytiwyr-selected" data-bib-target="bib-wytiwyr-selected">BibTeX</button>
+                  </div>
+                  <div class="pub-bib-card" id="bib-wytiwyr-selected" hidden>
+                    <pre>@inproceedings{xiao2023wytiwyr,
+  title={A User Intent-Aware Framework with Multi-modal Inputs for Visualization Retrieval},
+  author={Xiao, Shishi and Hou, Yihan and Jin, Cheng and Zeng, Wei},
+  booktitle={Eurographics Conference on Visualization (EuroVis)},
+  year={2023}
+}</pre>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="pub-panel" id="pub-all" role="tabpanel" aria-labelledby="tab-all" hidden>
+              <div class="pub-year-group">
+                <div class="pub-all-head">
+                  <span class="pub-all-label">2025</span>
+                </div>
+                <article class="pub-row">
+                  <div class="pub-date">CVPR 2025</div>
+                  <div class="pub-tags" aria-label="Research themes">
+                    <span class="research-theme-tag">Blending</span>
+                  </div>
+                  <div class="pub-body">
+                    <h3><span class="pub-acronym">BizGen</span><span class="pub-subtitle">Advancing Article-level Visual Text Rendering for Infographics Generation</span></h3>
+                    <p class="pub-authors">
+                      Yuyang Peng, Shishi Xiao, Keming Wu, Qisheng Liao, Bohan Chen,
+                      Kevin Lin, Danqing Huang, Ji Li, Yuhui Yuan
+                    </p>
+                    <div class="pub-links" aria-label="BizGen links">
+                      <a class="pub-link is-primary" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                      <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+                      <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Project</a>
+                      <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-bizgen-all" data-bib-target="bib-bizgen-all">BibTeX</button>
+                    </div>
+                    <div class="pub-bib-card" id="bib-bizgen-all" hidden>
+                      <pre>@inproceedings{peng2025bizgen,
+  title={Advancing Article-level Visual Text Rendering for Infographics Generation},
+  author={Peng, Yuyang and Xiao, Shishi and Wu, Keming and Liao, Qisheng and Chen, Bohan and Lin, Kevin and Huang, Danqing and Li, Ji and Yuan, Yuhui},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2025}
+}</pre>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="pub-year-group">
+                <div class="pub-all-head">
+                  <span class="pub-all-label">2024</span>
+                </div>
+                <article class="pub-row">
+                  <div class="pub-date">CHI 2024</div>
+                  <div class="pub-tags" aria-label="Research themes">
+                    <span class="research-theme-tag">Graphics</span>
+                  </div>
+                  <div class="pub-body">
+                    <h3><span class="pub-acronym">TypeDance</span><span class="pub-subtitle">Creating Semantic Typographic Logos from Image through Personalized Generation</span></h3>
+                    <p class="pub-authors">Shishi Xiao, Liangwei Wang, Xiaojuan Ma, Wei Zeng</p>
+                    <div class="pub-links" aria-label="TypeDance links">
+                      <a class="pub-link is-primary" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                      <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+                      <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Project</a>
+                      <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-typedance-all" data-bib-target="bib-typedance-all">BibTeX</button>
+                    </div>
+                    <div class="pub-bib-card" id="bib-typedance-all" hidden>
+                      <pre>@inproceedings{xiao2024typedance,
+  title={Creating Semantic Typographic Logos from Image through Personalized Generation},
+  author={Xiao, Shishi and Wang, Liangwei and Ma, Xiaojuan and Zeng, Wei},
+  booktitle={Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI)},
+  year={2024}
+}</pre>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="pub-year-group">
+                <div class="pub-all-head">
+                  <span class="pub-all-label">2023</span>
+                </div>
+                <article class="pub-row">
+                  <div class="pub-date">IEEE VIS / TVCG 2023</div>
+                  <div class="pub-tags" aria-label="Research themes">
+                    <span class="research-theme-tag">Visualization</span>
+                  </div>
+                  <div class="pub-body">
+                    <h3><span class="pub-acronym">ChartSpark</span><span class="pub-subtitle">Let the Chart Spark: Embedding Semantic Context into Chart with Text-to-Image Generative Model</span></h3>
+                    <p class="pub-authors">Shishi Xiao, Suizi Huang, Yue Lin, Yilin Ye, Wei Zeng</p>
+                    <div class="pub-links" aria-label="ChartSpark links">
+                      <a class="pub-link is-primary" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                      <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+                      <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Project</a>
+                      <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-chartspark-all" data-bib-target="bib-chartspark-all">BibTeX</button>
+                    </div>
+                    <div class="pub-bib-card" id="bib-chartspark-all" hidden>
+                      <pre>@article{xiao2023chartspark,
+  title={Let the Chart Spark: Embedding Semantic Context into Chart with Text-to-Image Generative Model},
+  author={Xiao, Shishi and Huang, Suizi and Lin, Yue and Ye, Yilin and Zeng, Wei},
+  journal={IEEE Transactions on Visualization and Computer Graphics (TVCG)},
+  year={2023}
+}</pre>
+                    </div>
+                  </div>
+                </article>
+                <article class="pub-row">
+                  <div class="pub-date">EuroVis 2023</div>
+                  <div class="pub-tags" aria-label="Research themes">
+                    <span class="research-theme-tag">Visualization</span>
+                  </div>
+                  <div class="pub-body">
+                    <h3><span class="pub-acronym">WYTIWYR</span><span class="pub-subtitle">A User Intent-Aware Framework with Multi-modal Inputs for Visualization Retrieval</span></h3>
+                    <p class="pub-authors">Shishi Xiao, Yihan Hou, Cheng Jin, Wei Zeng</p>
+                    <div class="pub-links" aria-label="WYTIWYR links">
+                      <a class="pub-link is-primary" href="#" target="_blank" rel="noopener noreferrer">Paper</a>
+                      <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Code</a>
+                      <a class="pub-link" href="#" target="_blank" rel="noopener noreferrer">Project</a>
+                      <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-wytiwyr-all" data-bib-target="bib-wytiwyr-all">BibTeX</button>
+                    </div>
+                    <div class="pub-bib-card" id="bib-wytiwyr-all" hidden>
+                      <pre>@inproceedings{xiao2023wytiwyr,
+  title={A User Intent-Aware Framework with Multi-modal Inputs for Visualization Retrieval},
+  author={Xiao, Shishi and Hou, Yihan and Jin, Cheng and Zeng, Wei},
+  booktitle={Eurographics Conference on Visualization (EuroVis)},
+  year={2023}
+}</pre>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section id="activities" class="section reveal" aria-labelledby="activities-heading">
+            <div class="section-head">
+              <h2 id="activities-heading">Activities</h2>
+            </div>
+            <div class="activity-panel">
+              <!-- <p class="activity-intro">Recent visits, talks, and exchanges.</p> -->
+              <ul class="activity-list" id="activity-list">
+                <li class="activity-item">
+                  <span class="activity-date">Apr 2026</span>
+                  <span class="activity-text">Talk and exchange at XXX University</span>
+                  <p class="activity-body">Gave a talk and exchanged ideas with the visualization group.</p>
+                </li>
+                <li class="activity-item">
+                  <span class="activity-date">Mar 2026</span>
+                  <span class="activity-text">Research visit to XXX Lab</span>
+                  <p class="activity-body">Visited XXX Lab for a research exchange on human-AI co-creation workflows.</p>
+                </li>
+                <li class="activity-item">
+                  <span class="activity-date">Nov 2025</span>
+                  <span class="activity-text">Workshop presentation at XXX</span>
+                  <p class="activity-body">Presented our recent work at XXX workshop and joined the post-talk discussion.</p>
+                </li>
+                <li class="activity-item activity-item--more" hidden>
+                  <span class="activity-date">Sep 2025</span>
+                  <span class="activity-text">Guest talk at XXX Institute</span>
+                  <p class="activity-body">Shared research progress and discussed visualization directions with local researchers.</p>
+                </li>
+                <li class="activity-item activity-item--more" hidden>
+                  <span class="activity-date">Jul 2025</span>
+                  <span class="activity-text">Visit to XXX Lab</span>
+                  <p class="activity-body">Visited the lab for a short exchange on design tools and evaluation strategies.</p>
+                </li>
+                <li class="activity-item activity-item--more" hidden>
+                  <span class="activity-date">May 2025</span>
+                  <span class="activity-text">Talk at XXX Workshop</span>
+                  <p class="activity-body">Presented an overview of the current project and received feedback from attendees.</p>
+                </li>
+              </ul>
+              <button class="activity-more-toggle" type="button" aria-expanded="false" aria-controls="activity-list">
+                <span class="activity-more-text">More activities</span>
+                <span class="activity-more-arrow" aria-hidden="true"></span>
+              </button>
+            </div>
+          </section>
+
+          <section id="education" class="section reveal" aria-labelledby="education-heading">
+            <div class="section-head">
+              <h2 id="education-heading">Education</h2>
+            </div>
+            <div class="edu-list">
+              <article class="edu-row">
+                <div class="edu-meta">2024 - Present</div>
+                <div>
+                  <h3>Brown University</h3>
+                  <p>PhD in Computer Science</p>
+                </div>
+              </article>
+              <article class="edu-row">
+                <div class="edu-meta">2022 - 2024</div>
+                <div>
+                  <h3>HKUST (Guangzhou)</h3>
+                  <p>MPhil in Computational Media and Arts</p>
+                </div>
+              </article>
+              <article class="edu-row">
+                <div class="edu-meta">2018 - 2022</div>
+                <div>
+                  <h3>University of Electronic Science and Technology of China</h3>
+                  <p>Bachelor in Communication Engineering</p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </main>
+
+        <footer class="site-credit reveal" aria-label="Site credit">
+          <p>
+            <span class="credit-label">Made by</span>
+            <a href="https://serendipitysx.github.io/" target="_blank" rel="noopener noreferrer">Shishi Xiao</a>
+            <span class="credit-date">Updated Apr 2026</span>
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <button
+      class="theme-toggle"
+      type="button"
+      aria-label="Toggle color theme"
+      aria-pressed="false"
+      title="Toggle theme"
+    >
+      <span aria-hidden="true">◐</span>
+    </button>
+    <script>
+      const root = document.documentElement;
+      const themeToggle = document.querySelector(".theme-toggle");
+      const storedTheme = localStorage.getItem("theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      const applyTheme = (theme) => {
+        root.dataset.theme = theme;
+        themeToggle.setAttribute("aria-pressed", String(theme === "dark"));
+        themeToggle.innerHTML = `<span aria-hidden="true">${theme === "dark" ? "☼" : "◐"}</span>`;
+      };
+
+      applyTheme(storedTheme || (prefersDark ? "dark" : "light"));
+
+      themeToggle.addEventListener("click", () => {
+        const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
+        localStorage.setItem("theme", nextTheme);
+        applyTheme(nextTheme);
+      });
+
+      const navLinks = [...document.querySelectorAll(".toc-sidebar .nav-link")];
+      const sections = navLinks
+        .map((link) => document.querySelector(link.getAttribute("href")))
+        .filter(Boolean);
+      let pendingNavTargetId = "";
+
+      const setActiveSection = (activeId) => {
+        navLinks.forEach((link) => {
+          const isActive = link.getAttribute("href") === `#${activeId}`;
+          link.classList.toggle("is-active", isActive);
+          if (isActive) {
+            link.setAttribute("aria-current", "location");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+      };
+
+      const updateSectionHighlight = () => {
+        const tocHeight = document.querySelector(".toc-sidebar")?.offsetHeight ?? 0;
+        const sectionScrollMargin = sections[0]
+          ? parseFloat(window.getComputedStyle(sections[0]).scrollMarginTop) || 0
+          : 0;
+        const triggerY = Math.max(tocHeight + 28, sectionScrollMargin - 8);
+        let activeId = sections[0]?.id;
+        const nearPageBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4;
+
+        if (pendingNavTargetId) {
+          const pendingSection = sections.find((section) => section.id === pendingNavTargetId);
+          if (pendingSection) {
+            const pendingRect = pendingSection.getBoundingClientRect();
+            if (pendingRect.top > triggerY && !nearPageBottom) {
+              setActiveSection(pendingNavTargetId);
+              return;
+            }
+          }
+          pendingNavTargetId = "";
+        }
+
+        if (nearPageBottom && sections.length) {
+          setActiveSection(sections[sections.length - 1].id);
+          return;
+        }
+
+        sections.forEach((section) => {
+          const rect = section.getBoundingClientRect();
+          if (rect.top <= triggerY) {
+            activeId = section.id;
+          }
+        });
+
+        if (activeId) {
+          setActiveSection(activeId);
+        }
+      };
+
+      let sectionHighlightFrame = 0;
+      const scheduleSectionHighlight = () => {
+        if (sectionHighlightFrame) return;
+        sectionHighlightFrame = window.requestAnimationFrame(() => {
+          sectionHighlightFrame = 0;
+          updateSectionHighlight();
+        });
+      };
+
+      window.addEventListener("scroll", scheduleSectionHighlight, { passive: true });
+      window.addEventListener("resize", scheduleSectionHighlight);
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const targetId = link.getAttribute("href")?.slice(1);
+          if (!targetId) return;
+          pendingNavTargetId = targetId;
+          setActiveSection(targetId);
+          window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(updateSectionHighlight);
+          });
+        });
+      });
+
+      window.addEventListener("hashchange", scheduleSectionHighlight);
+      updateSectionHighlight();
+
+      const activityMoreToggle = document.querySelector(".activity-more-toggle");
+      const activityMoreText = document.querySelector(".activity-more-text");
+      const activityMoreItems = [...document.querySelectorAll(".activity-item--more")];
+
+      if (activityMoreToggle && activityMoreItems.length) {
+        const updateActivityToggle = () => {
+          const hiddenCount = activityMoreItems.filter((item) => item.hidden).length;
+          activityMoreToggle.hidden = hiddenCount === 0;
+          activityMoreToggle.setAttribute("aria-expanded", String(hiddenCount > 0));
+          if (activityMoreText) {
+            activityMoreText.textContent = hiddenCount === 1 ? "More activity" : "More activities";
+          }
+        };
+
+        activityMoreToggle.addEventListener("click", () => {
+          const nextBatch = activityMoreItems.filter((item) => item.hidden).slice(0, 3);
+          nextBatch.forEach((item) => {
+            item.hidden = false;
+          });
+          updateActivityToggle();
+        });
+
+        updateActivityToggle();
+      }
+
+      const pubTabs = [...document.querySelectorAll(".pub-tab")];
+      const pubPanels = [...document.querySelectorAll(".pub-panel")];
+
+      const setPublicationView = (targetId) => {
+        pubTabs.forEach((tab) => {
+          const isActive = tab.getAttribute("aria-controls") === targetId;
+          tab.classList.toggle("is-active", isActive);
+          tab.setAttribute("aria-selected", String(isActive));
+          tab.tabIndex = isActive ? 0 : -1;
+        });
+
+        pubPanels.forEach((panel) => {
+          const isActive = panel.id === targetId;
+          panel.hidden = !isActive;
+          panel.classList.toggle("is-active", isActive);
+        });
+      };
+
+      pubTabs.forEach((tab) => {
+        tab.addEventListener("click", () => setPublicationView(tab.getAttribute("aria-controls")));
+      });
+
+      setPublicationView("pub-selected");
+
+      const bibToggles = [...document.querySelectorAll(".pub-bib-toggle")];
+
+      bibToggles.forEach((toggle) => {
+        toggle.addEventListener("click", () => {
+          const targetId = toggle.dataset.bibTarget;
+          if (!targetId) return;
+          const card = document.getElementById(targetId);
+          if (!card) return;
+
+          const nextExpanded = toggle.getAttribute("aria-expanded") !== "true";
+          toggle.setAttribute("aria-expanded", String(nextExpanded));
+          card.hidden = !nextExpanded;
+        });
+      });
+
+      const revealObserver = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        ? null
+        : new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add("is-visible");
+                  revealObserver.unobserve(entry.target);
+                }
+              });
+            },
+            { threshold: 0.15 }
+          );
+
+      if (revealObserver) {
+        document.querySelectorAll(".reveal").forEach((element) => {
+          revealObserver.observe(element);
+        });
+      } else {
+        document.querySelectorAll(".reveal").forEach((element) => {
+          element.classList.add("is-visible");
+        });
+      }
+    </script>
+  </body>
+</html>
