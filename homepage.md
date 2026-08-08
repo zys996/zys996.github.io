@@ -2,120 +2,106 @@
 
 Hi, welcome to my corner of the Internet!
 
-I am a **Ph.D. student in Computer Science at Brown University**, advised by **Prof. David Laidlaw** in the **Brown Visual Computing Lab**.
+I am a **Ph.D. student in Computer Science at [UT Austin](https://www.cs.utexas.edu/)**, advised by **[Prof. Kevin Tian](https://kjtian.github.io/)** and **[Prof. Eric Price](https://www.cs.utexas.edu/~ecprice/)**. Before joining UT Austin, I received my bachelor's degree in Software Engineering from Tsinghua University.
 
-Previously:
-- **MPhil in Computational Arts**, HKUST (Guangzhou)
-- **Bachelor in Communication Engineering**, University of Electronic Science and Technology of China (UESTC)
+My research focuses on the **theoretical foundations of generative models**. I am also broadly interested in high-dimensional statistics, learning theory, and trustworthy machine learning. I aim to develop statistically principled methods with provable guarantees for sampling from, reasoning about, and evaluating modern generative systems.
 
-My research explores **visual representation and visual communication** (e.g., charts, infographics, logos) to help explain complex ideas and empower humans with effective visual communication tools.
+Recently, I am particularly interested in evaluating and auditing large language models and diffusion models, including measuring sample quality and detecting shifts or inconsistencies in model behavior.
+
+Email: [zhuys@utexas.edu](mailto:zhuys@utexas.edu)
+
+Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAAAAJ&hl=en)
 
 ---
 
 # Research Interests
 
-My research revolves around **visual computing**, including:
-
-- Computer Vision
-- Data Visualization
-- Visual Design
-
----
-
-# Research Goals
-
-With **computer vision as design material** and **user intent as a design constraint**, my work aims to support multiple stages of the visualization and graphic design pipeline.
-
-Specifically:
-
-- Exploring novel visual designs for representing complex ideas.
-- Enhancing intent-aware workflows to facilitate design processes.
-- Empowering users with tools for effective visual communication.
+- Theoretical foundations of generative models
+- Sampling algorithms with provable guarantees
+- Evaluation and auditing of large language models and diffusion models
+- High-dimensional statistics
 
 ---
 
-# Selected Publications
+# Publications
 
-## BizGen
-**Advancing Article-level Visual Text Rendering for Infographics Generation**  
-CVPR 2025
+*Authors are listed in alphabetical order unless otherwise noted.*
 
-Authors:
-Yuyang Peng, Shishi Xiao, Keming Wu, Qisheng Liao, Bohan Chen, Kevin Lin, Danqing Huang, Ji Li, Yuhui Yuan
+## Total Variation Distance Estimation in Autoregressive Models
+**Preprint, 2026. Preliminary version presented at the ICML 2026 Hypothesis Testing Workshop.**
 
----
+[Paper](https://arxiv.org/abs/2607.19510) · [arXiv](https://arxiv.org/abs/2607.19510) · [Code](https://github.com/XunZhiyang/llm-tv-estimation)
 
-## TypeDance
-**Creating Semantic Typographic Logos from Image through Personalized Generation**  
-CHI 2024
-
-Authors:
-Shishi Xiao, Liangwei Wang, Xiaojuan Ma, Wei Zeng
+**Authors:** Eric Price, Kevin Tian, Zhiyang Xun, Yusong Zhu
 
 ---
 
-## ChartSpark
-**Let the Chart Spark: Embedding Semantic Context into Chart with Text-to-Image Generative Model**  
-IEEE VIS / TVCG 2023
+## The Tractability Landscape of Sampling with Inexact Scores
+**Preprint, 2026**
 
-Authors:
-Shishi Xiao, Suizi Huang, Yue Lin, Yilin Ye, Wei Zeng
+[Paper](https://arxiv.org/abs/2607.19004) · [arXiv](https://arxiv.org/abs/2607.19004)
+
+**Authors:** Anming Gu, Kevin Tian, Hubert Yang, Yusong Zhu
 
 ---
 
-## WYTIWYR
-**A User Intent-Aware Framework with Multi-modal Inputs for Visualization Retrieval**  
-EuroVis 2023
+## Separating Oblivious and Adaptive Models of Variable Selection
+**Conference on Learning Theory (COLT), 2026**
 
-Authors:
-Shishi Xiao, Yihan Hou, Cheng Jin, Wei Zeng
+[Paper](https://proceedings.mlr.press/v336/chen26b.html) · [arXiv](https://arxiv.org/abs/2602.16568)
+
+**Authors:** Ziyun Chen, Jerry Li, Kevin Tian, Yusong Zhu
+
+---
+
+## Spike-and-Slab Posterior Sampling in High Dimensions
+**Conference on Learning Theory (COLT), 2025**
+
+[Paper](https://proceedings.mlr.press/v291/kumar25a.html) · [arXiv](https://arxiv.org/abs/2503.02798)
+
+**Authors:** Syamantak Kumar, Purnamrita Sarkar, Kevin Tian, Yusong Zhu
+
+---
+
+## Fast Conditional Mixing of MCMC Algorithms for Non-log-concave Distributions
+**Advances in Neural Information Processing Systems (NeurIPS), 2023**
+
+[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2b00b3331bd0f5fbfdd966ac06338f6d-Abstract-Conference.html) · [arXiv](https://arxiv.org/abs/2306.10506)
+
+**Authors:** Xiang Cheng, Bohan Wang, Jingzhao Zhang, Yusong Zhu
 
 ---
 
 # News
 
-- **May 2025** – Internship at Adobe (San Jose)
-- **Mar 2025** – BizGen accepted to CVPR 2025
-- **Mar 2025** – VizTA accepted to EuroVIS 2025
-- **Jul 2024** – ModalChorus accepted to IEEE VIS 2024
-- **Jan 2024** – TypeDance accepted to CHI 2024
-- **Dec 2023** – "The Contemporary Art of Image Search" accepted to CSCW 2024
-- **Dec 2023** – MetroBUX accepted to IEEE TITS
-- **Oct 2023** – Presented ChartSpark at IEEE VIS
-- **Jul 2023** – Internship at HKUST HCI Initiative
-- **Jul 2023** – ChartSpark accepted to IEEE VIS
-- **Jun 2023** – Presented WYTIWYR at EuroVIS
-- **Jan 2023** – WYTIWYR accepted to EuroVIS
-- **Sep 2022** – MetroBUX poster received Best Poster Honorable Mention at ChinaVis
-- **Sep 2022** – Started visualization research at HKUST CIVAl Lab
+- **Summer 2026** – Visiting [Prof. Jerry Li](https://jerryzli.github.io/) at the University of Washington.
+- **July 2026** – One paper presented at the ICML 2026 Hypothesis Testing Workshop.
+- **June 2026** – One paper presented at COLT 2026.
 
 ---
 
 # Education
 
-## Brown University
-PhD in Computer Science  
-2024 – Present
+## The University of Texas at Austin
+**Ph.D. student in Computer Science, September 2024–Present**
 
-## HKUST (Guangzhou)
-MPhil in Computational Media and Arts  
-2022 – 2024
+Advisors: Kevin Tian and Eric Price
 
-## University of Electronic Science and Technology of China
-Bachelor in Communication Engineering  
-2018 – 2022
+## Tsinghua University, School of Software
+**B.S. in Software Engineering, September 2020–June 2024**
 
----
-Teaching:
-Graduate Teaching Assistant, EE 461P, Data Science Principles, Spring 2022
-
+## Tsinghua University, Department of Statistics
+**Minor in Statistics, September 2020–June 2024**
 
 ---
 
-# Misc
+# Teaching
 
-Creative work:
+- **Teaching Assistant**, CS 395T: Continuous Algorithms, The University of Texas at Austin, Spring 2026
+- **Volunteer Mathematics and Programming Tutor**, Tsinghua University, 2020–2022
 
-- 3D Pixel
-- Doodle
-- Clay
+---
+
+# Professional Service
+
+- **Conference Reviewer:** ICML 2026 (**Gold Reviewer**), FOCS 2026, and NeurIPS 2026.
