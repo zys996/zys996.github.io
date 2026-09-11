@@ -27,6 +27,26 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 
 *Authors are listed in alphabetical order unless otherwise noted.*
 
+## High-Magnetization Sampling at Low Temperatures: Ising Models and Bayesian Sparse Linear Regression
+**Preprint, 2026**
+
+[Paper](https://arxiv.org/abs/2609.08873v1) · [arXiv](https://arxiv.org/abs/2609.08873)
+
+**Authors:** Syamantak Kumar, Purnamrita Sarkar, Kevin Tian, Yusong Zhu
+
+---
+
+## Revisiting the Provable-Auditable Privacy Gap of DP-SGD
+**Preprint, 2026**
+
+[Paper](https://arxiv.org/abs/2608.28934) · [arXiv](https://arxiv.org/abs/2608.28934) · [Code](https://github.com/pineappleEnthusiast/empirical-privacy-defense)
+
+**Authors:** Saloni Modi<sup>*</sup>, Srivi Balaji, Yusong Zhu, Gautam Kamath, Kevin Tian
+
+<sup>*</sup> First author; authors are not listed alphabetically.
+
+---
+
 ## Total Variation Distance Estimation in Autoregressive Models
 **Preprint, 2026. Preliminary version presented at the ICML 2026 Hypothesis Testing Workshop.**
 
