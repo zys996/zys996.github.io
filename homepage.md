@@ -37,7 +37,7 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 ---
 
 ## Revisiting the Provable-Auditable Privacy Gap of DP-SGD
-**Preprint, 2026**
+**Advances in Neural Information Processing Systems (NeurIPS), 2026**
 
 [Paper](https://arxiv.org/abs/2608.28934) · [arXiv](https://arxiv.org/abs/2608.28934) · [Code](https://github.com/pineappleEnthusiast/empirical-privacy-defense)
 
@@ -48,7 +48,7 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 ---
 
 ## Total Variation Distance Estimation in Autoregressive Models
-**Preprint, 2026. Preliminary version presented at the ICML 2026 Hypothesis Testing Workshop.**
+**Advances in Neural Information Processing Systems (NeurIPS), 2026. Preliminary version presented at the ICML 2026 Hypothesis Testing Workshop.**
 
 [Paper](https://arxiv.org/abs/2607.19510) · [arXiv](https://arxiv.org/abs/2607.19510) · [Code](https://github.com/XunZhiyang/llm-tv-estimation)
 
