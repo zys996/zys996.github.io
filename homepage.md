@@ -36,6 +36,15 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 
 ---
 
+## The Tractability Landscape of Sampling with Inexact Scores
+**Preprint, 2026**
+
+[Paper](https://arxiv.org/abs/2607.19004) · [arXiv](https://arxiv.org/abs/2607.19004)
+
+**Authors:** Anming Gu, Kevin Tian, Hubert Yang, Yusong Zhu
+
+---
+
 ## Revisiting the Provable-Auditable Privacy Gap of DP-SGD
 **Advances in Neural Information Processing Systems (NeurIPS), 2026**
 
@@ -53,15 +62,6 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 [Paper](https://arxiv.org/abs/2607.19510) · [arXiv](https://arxiv.org/abs/2607.19510) · [Code](https://github.com/XunZhiyang/llm-tv-estimation)
 
 **Authors:** Eric Price, Kevin Tian, Zhiyang Xun, Yusong Zhu
-
----
-
-## The Tractability Landscape of Sampling with Inexact Scores
-**Preprint, 2026**
-
-[Paper](https://arxiv.org/abs/2607.19004) · [arXiv](https://arxiv.org/abs/2607.19004)
-
-**Authors:** Anming Gu, Kevin Tian, Hubert Yang, Yusong Zhu
 
 ---
 
