@@ -27,6 +27,15 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 
 *Authors are listed in alphabetical order unless otherwise noted.*
 
+## Sample-Optimal Estimation of the Fréchet Inception Distance
+**Preprint, 2026**
+
+[Paper](https://arxiv.org/abs/2610.07114) · [arXiv](https://arxiv.org/abs/2610.07114) · [Code](https://github.com/zys996/sample-optimal-fid-estimation)
+
+**Authors:** Ziyun Chen, Jerry Li, Kevin Tian, Yusong Zhu
+
+---
+
 ## High-Magnetization Sampling at Low Temperatures: Ising Models and Bayesian Sparse Linear Regression
 **Preprint, 2026**
 
