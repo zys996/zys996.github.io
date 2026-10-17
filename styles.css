@@ -464,6 +464,7 @@ html[data-theme="dark"] .social-link:focus-visible {
 }
 
 a.person-link,
+a.research-paper-link,
 .rail-news-text a.person-link {
   color: var(--link-blue);
   text-decoration: underline;
@@ -865,6 +866,15 @@ h2 {
 
 .prose p + p {
   margin-top: 0.95rem;
+}
+
+.research-questions {
+  margin: 0.95rem 0 0;
+  padding-left: 1.5rem;
+}
+
+.research-questions li + li {
+  margin-top: 1.5rem;
 }
 
 .side-note {

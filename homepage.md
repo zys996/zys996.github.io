@@ -4,9 +4,19 @@ Hi, welcome to my corner of the Internet!
 
 I am a **Ph.D. student in Computer Science at UT Austin**, advised by **[Kevin Tian](https://kjtian.github.io/)** and **[Eric Price](https://www.cs.utexas.edu/~ecprice/)**. Before joining UT Austin, I received my bachelor's degree in Software Engineering from Tsinghua University.
 
-My research focuses on the **theoretical foundations of generative models**. I am also broadly interested in high-dimensional statistics, learning theory, and trustworthy machine learning. I aim to develop statistically principled methods with provable guarantees for sampling from, reasoning about, and evaluating modern generative systems.
+My research focuses on the **theoretical foundations of generative models**. I am also broadly interested in high-dimensional statistics, learning theory, and trustworthy machine learning.
 
-Recently, I am particularly interested in evaluating and auditing large language models and diffusion models, including measuring sample quality and detecting shifts or inconsistencies in model behavior.
+Recently, I have been particularly interested in the question: **How can we effectively and reliably evaluate and audit the behavior of modern generative models?** As these models tackle increasingly complex and challenging tasks, much of the research focuses on expanding and improving their capabilities. This progress calls for principled evaluation and auditing methods that help us understand what these models can do, where they fail, and whether their behavior meets our expectations.
+
+For example, my recent work explores the following questions:
+
+1. **When a metric relies on distributional assumptions, are standard estimators accurate under those assumptions, and can we do better?**
+
+   For the widely used Fréchet Inception Distance (FID), the standard empirical estimator can exhibit substantial systematic bias even when the underlying Gaussian assumptions hold. Reproducible scores can therefore remain far from the population quantity the metric is intended to measure. In our work, we give a sharp theoretical characterization of this estimation problem and develop a computationally efficient estimator with optimal sample complexity under a Gaussian model. We also demonstrate improved estimation accuracy on ImageNet. [Paper](https://arxiv.org/abs/2610.07114)
+
+2. **Can we use the structure of modern generative models to measure distributional differences efficiently, without imposing parametric assumptions on their output distributions?**
+
+   In our work on autoregressive models, we use their sequential prediction and sampling structure to develop efficient estimators of total variation distance with provable guarantees. We apply these methods to quantify differences between the output distributions of different LLM deployments, including vLLM and SGLang serving identical model weights. This provides a direct way to assess how deployment choices affect model behavior. [Paper](https://arxiv.org/abs/2607.19510)
 
 Email: [zhuys@utexas.edu](mailto:zhuys@utexas.edu)
 
