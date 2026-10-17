@@ -650,6 +650,71 @@ h2 {
   margin-top: 0.85rem;
 }
 
+.pub-view-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  margin-top: 1.1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.pub-view-button {
+  padding: 0.5rem 0.1rem;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pub-view-button[aria-pressed="true"] {
+  border-bottom-color: var(--accent);
+  color: var(--text);
+}
+
+.pub-topic-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.pub-topic-button {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pub-topic-button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.pub-view-button:hover,
+.pub-topic-button:hover {
+  color: var(--accent);
+}
+
+.pub-results-summary {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.pub-view-controls[hidden],
+.pub-topic-controls[hidden],
+.pub-panel [hidden],
+.pub-panel[data-view="topic"] .pub-tags {
+  display: none;
+}
+
 .pub-row {
   display: grid;
   grid-template-columns: 8.8rem minmax(0, 1fr);
@@ -806,7 +871,7 @@ h2 {
   padding-top: 1rem;
 }
 
-.pub-year-group:first-child {
+.pub-filtered-list + .pub-year-group {
   margin-top: 0;
   padding-top: 0;
   border-top: 0;
@@ -1409,6 +1474,7 @@ h2 {
 
   .pub-row > .pub-tags {
     justify-self: start;
+    justify-content: flex-start;
   }
 
   .toc-panel .nav-list {

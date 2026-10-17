@@ -37,8 +37,22 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 
 *Authors are listed in alphabetical order unless otherwise noted.*
 
+**Publication views:** Selected (default), By topic, and By date.
+
+**Selected publications**, in display order:
+
+1. Sample-Optimal Estimation of the Fréchet Inception Distance
+2. Total Variation Distance Estimation in Autoregressive Models
+3. High-Magnetization Sampling at Low Temperatures: Ising Models and Bayesian Sparse Linear Regression
+
+**By topic:** Choose High-dimensional statistics, Sampling, or Model evaluation to show that topic's publications. Papers may belong to more than one topic. Selected and By date show all topic labels; By topic shows the chosen topic above the list.
+
+**By date:** All publications, grouped by year and ordered by their initial arXiv submission, newest first.
+
 ## Sample-Optimal Estimation of the Fréchet Inception Distance
 **Preprint, 2026**
+
+**Topics:** High-dimensional statistics · Model evaluation
 
 [Paper](https://arxiv.org/abs/2610.07114) · [arXiv](https://arxiv.org/abs/2610.07114) · [Code](https://github.com/zys996/sample-optimal-fid-estimation)
 
@@ -49,23 +63,18 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 ## High-Magnetization Sampling at Low Temperatures: Ising Models and Bayesian Sparse Linear Regression
 **Preprint, 2026**
 
+**Topics:** Sampling
+
 [Paper](https://arxiv.org/abs/2609.08873v1) · [arXiv](https://arxiv.org/abs/2609.08873)
 
 **Authors:** Syamantak Kumar, Purnamrita Sarkar, Kevin Tian, Yusong Zhu
 
 ---
 
-## The Tractability Landscape of Sampling with Inexact Scores
-**Preprint, 2026**
-
-[Paper](https://arxiv.org/abs/2607.19004) · [arXiv](https://arxiv.org/abs/2607.19004)
-
-**Authors:** Anming Gu, Kevin Tian, Hubert Yang, Yusong Zhu
-
----
-
 ## Revisiting the Provable-Auditable Privacy Gap of DP-SGD
 **Advances in Neural Information Processing Systems (NeurIPS), 2026**
+
+**Topics:** Model evaluation
 
 [Paper](https://arxiv.org/abs/2608.28934) · [arXiv](https://arxiv.org/abs/2608.28934) · [Code](https://github.com/pineappleEnthusiast/empirical-privacy-defense)
 
@@ -78,14 +87,29 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 ## Total Variation Distance Estimation in Autoregressive Models
 **Advances in Neural Information Processing Systems (NeurIPS), 2026. Preliminary version presented at the ICML 2026 Hypothesis Testing Workshop.**
 
+**Topics:** High-dimensional statistics · Model evaluation
+
 [Paper](https://arxiv.org/abs/2607.19510) · [arXiv](https://arxiv.org/abs/2607.19510) · [Code](https://github.com/XunZhiyang/llm-tv-estimation)
 
 **Authors:** Eric Price, Kevin Tian, Zhiyang Xun, Yusong Zhu
 
 ---
 
+## The Tractability Landscape of Sampling with Inexact Scores
+**Preprint, 2026**
+
+**Topics:** Sampling
+
+[Paper](https://arxiv.org/abs/2607.19004) · [arXiv](https://arxiv.org/abs/2607.19004)
+
+**Authors:** Anming Gu, Kevin Tian, Hubert Yang, Yusong Zhu
+
+---
+
 ## Separating Oblivious and Adaptive Models of Variable Selection
 **Conference on Learning Theory (COLT), 2026**
+
+**Topics:** High-dimensional statistics
 
 [Paper](https://proceedings.mlr.press/v336/chen26b.html) · [arXiv](https://arxiv.org/abs/2602.16568)
 
@@ -96,6 +120,8 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 ## Spike-and-Slab Posterior Sampling in High Dimensions
 **Conference on Learning Theory (COLT), 2025**
 
+**Topics:** Sampling
+
 [Paper](https://proceedings.mlr.press/v291/kumar25a.html) · [arXiv](https://arxiv.org/abs/2503.02798)
 
 **Authors:** Syamantak Kumar, Purnamrita Sarkar, Kevin Tian, Yusong Zhu
@@ -104,6 +130,8 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 
 ## Fast Conditional Mixing of MCMC Algorithms for Non-log-concave Distributions
 **Advances in Neural Information Processing Systems (NeurIPS), 2023**
+
+**Topics:** Sampling
 
 [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/2b00b3331bd0f5fbfdd966ac06338f6d-Abstract-Conference.html) · [arXiv](https://arxiv.org/abs/2306.10506)
 

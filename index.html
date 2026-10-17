@@ -170,12 +170,25 @@
             </div>
             <p class="section-note">Authors are listed in alphabetical order unless otherwise noted.</p>
 
-            <div class="pub-panel" aria-label="Publications by date">
+            <div class="pub-view-controls" role="group" aria-label="Publication views" hidden>
+              <button class="pub-view-button" type="button" data-pub-view="selected" aria-pressed="true" aria-controls="publication-list">Selected</button>
+              <button class="pub-view-button" type="button" data-pub-view="topic" aria-pressed="false" aria-controls="publication-list publication-topics">By topic</button>
+              <button class="pub-view-button" type="button" data-pub-view="date" aria-pressed="false" aria-controls="publication-list">By date</button>
+            </div>
+            <div class="pub-topic-controls" id="publication-topics" role="group" aria-label="Publication topics" hidden>
+              <button class="pub-topic-button" type="button" data-pub-topic="statistics" aria-pressed="true" aria-controls="publication-list">High-dimensional statistics</button>
+              <button class="pub-topic-button" type="button" data-pub-topic="sampling" aria-pressed="false" aria-controls="publication-list">Sampling</button>
+              <button class="pub-topic-button" type="button" data-pub-topic="evaluation" aria-pressed="false" aria-controls="publication-list">Model evaluation</button>
+            </div>
+            <p class="pub-results-summary" role="status" aria-live="polite" aria-atomic="true" hidden></p>
+
+            <div class="pub-panel" id="publication-list" aria-label="Publications by date" data-view="date">
+              <div class="pub-filtered-list" hidden></div>
               <div class="pub-year-group">
                 <div class="pub-all-head"><span class="pub-all-label">2026</span></div>
-                <article class="pub-row">
+                <article class="pub-row" data-pub-id="fid" data-topics="statistics evaluation" data-selected-order="1">
                   <div class="pub-date">Preprint</div>
-                  <div class="pub-tags" aria-label="Research themes"><span class="research-theme-tag">Model Evaluation</span></div>
+                  <div class="pub-tags" aria-label="Research topics"><span class="research-theme-tag">High-dimensional statistics</span><span class="research-theme-tag">Model evaluation</span></div>
                   <div class="pub-body">
                     <h3>Sample-Optimal Estimation of the Fréchet Inception Distance</h3>
                     <p class="pub-authors">Ziyun Chen, Jerry Li, Kevin Tian, <strong>Yusong Zhu</strong></p>
@@ -198,9 +211,9 @@
                     </div>
                   </div>
                 </article>
-                <article class="pub-row">
+                <article class="pub-row" data-pub-id="magnetization" data-topics="sampling" data-selected-order="3">
                   <div class="pub-date">Preprint</div>
-                  <div class="pub-tags" aria-label="Research themes"><span class="research-theme-tag">Bayesian Sampling</span></div>
+                  <div class="pub-tags" aria-label="Research topics"><span class="research-theme-tag">Sampling</span></div>
                   <div class="pub-body">
                     <h3>High-Magnetization Sampling at Low Temperatures: Ising Models and Bayesian Sparse Linear Regression</h3>
                     <p class="pub-authors">Syamantak Kumar, Purnamrita Sarkar, Kevin Tian, <strong>Yusong Zhu</strong></p>
@@ -222,33 +235,9 @@
                     </div>
                   </div>
                 </article>
-                <article class="pub-row">
-                  <div class="pub-date">Preprint</div>
-                  <div class="pub-tags" aria-label="Research themes"><span class="research-theme-tag">Score-based Sampling</span></div>
-                  <div class="pub-body">
-                    <h3>The Tractability Landscape of Sampling with Inexact Scores</h3>
-                    <p class="pub-authors">Anming Gu, Kevin Tian, Hubert Yang, <strong>Yusong Zhu</strong></p>
-                    <div class="pub-links" aria-label="Inexact-score sampling paper links">
-                      <a class="pub-link is-primary" href="https://arxiv.org/abs/2607.19004" target="_blank" rel="noopener noreferrer">Paper</a>
-                      <a class="pub-link" href="https://arxiv.org/abs/2607.19004" target="_blank" rel="noopener noreferrer">arXiv</a>
-                      <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-scores" data-bib-target="bib-scores">BibTeX</button>
-                    </div>
-                    <div class="pub-bib-card" id="bib-scores" hidden>
-                      <pre>@misc{gu2026tractabilitylandscapesamplinginexact,
-  title={The Tractability Landscape of Sampling with Inexact Scores},
-  author={Anming Gu and Kevin Tian and Hubert Yang and Yusong Zhu},
-  year={2026},
-  eprint={2607.19004},
-  archivePrefix={arXiv},
-  primaryClass={stat.ML},
-  url={https://arxiv.org/abs/2607.19004}
-}</pre>
-                    </div>
-                  </div>
-                </article>
-                <article class="pub-row">
+                <article class="pub-row" data-pub-id="privacy" data-topics="evaluation">
                   <div class="pub-date">NeurIPS 2026</div>
-                  <div class="pub-tags" aria-label="Research themes"><span class="research-theme-tag">Privacy Auditing</span></div>
+                  <div class="pub-tags" aria-label="Research topics"><span class="research-theme-tag">Model evaluation</span></div>
                   <div class="pub-body">
                     <h3>Revisiting the Provable-Auditable Privacy Gap of DP-SGD</h3>
                     <p class="pub-authors">Saloni Modi<sup>*</sup>, Srivi Balaji, <strong>Yusong Zhu</strong>, Gautam Kamath, Kevin Tian</p>
@@ -272,9 +261,9 @@
                     </div>
                   </div>
                 </article>
-                <article class="pub-row">
+                <article class="pub-row" data-pub-id="tv" data-topics="statistics evaluation" data-selected-order="2">
                   <div class="pub-date">NeurIPS 2026</div>
-                  <div class="pub-tags" aria-label="Research themes"><span class="research-theme-tag">Model Evaluation</span></div>
+                  <div class="pub-tags" aria-label="Research topics"><span class="research-theme-tag">High-dimensional statistics</span><span class="research-theme-tag">Model evaluation</span></div>
                   <div class="pub-body">
                     <h3>Total Variation Distance Estimation in Autoregressive Models</h3>
                     <p class="pub-authors">Eric Price, Kevin Tian, Zhiyang Xun, <strong>Yusong Zhu</strong></p>
@@ -298,9 +287,33 @@
                     </div>
                   </div>
                 </article>
-                <article class="pub-row">
+                <article class="pub-row" data-pub-id="scores" data-topics="sampling">
+                  <div class="pub-date">Preprint</div>
+                  <div class="pub-tags" aria-label="Research topics"><span class="research-theme-tag">Sampling</span></div>
+                  <div class="pub-body">
+                    <h3>The Tractability Landscape of Sampling with Inexact Scores</h3>
+                    <p class="pub-authors">Anming Gu, Kevin Tian, Hubert Yang, <strong>Yusong Zhu</strong></p>
+                    <div class="pub-links" aria-label="Inexact-score sampling paper links">
+                      <a class="pub-link is-primary" href="https://arxiv.org/abs/2607.19004" target="_blank" rel="noopener noreferrer">Paper</a>
+                      <a class="pub-link" href="https://arxiv.org/abs/2607.19004" target="_blank" rel="noopener noreferrer">arXiv</a>
+                      <button class="pub-link pub-bib-toggle" type="button" aria-expanded="false" aria-controls="bib-scores" data-bib-target="bib-scores">BibTeX</button>
+                    </div>
+                    <div class="pub-bib-card" id="bib-scores" hidden>
+                      <pre>@misc{gu2026tractabilitylandscapesamplinginexact,
+  title={The Tractability Landscape of Sampling with Inexact Scores},
+  author={Anming Gu and Kevin Tian and Hubert Yang and Yusong Zhu},
+  year={2026},
+  eprint={2607.19004},
+  archivePrefix={arXiv},
+  primaryClass={stat.ML},
+  url={https://arxiv.org/abs/2607.19004}
+}</pre>
+                    </div>
+                  </div>
+                </article>
+                <article class="pub-row" data-pub-id="variable" data-topics="statistics">
                   <div class="pub-date">COLT 2026</div>
-                  <div class="pub-tags" aria-label="Research themes"><span class="research-theme-tag">Sparse Recovery</span></div>
+                  <div class="pub-tags" aria-label="Research topics"><span class="research-theme-tag">High-dimensional statistics</span></div>
                   <div class="pub-body">
                     <h3>Separating Oblivious and Adaptive Models of Variable Selection</h3>
                     <p class="pub-authors">Ziyun Chen, Jerry Li, Kevin Tian, <strong>Yusong Zhu</strong></p>
@@ -331,9 +344,9 @@
 
               <div class="pub-year-group">
                 <div class="pub-all-head"><span class="pub-all-label">2025</span></div>
-                <article class="pub-row">
+                <article class="pub-row" data-pub-id="spike" data-topics="sampling">
                   <div class="pub-date">COLT 2025</div>
-                  <div class="pub-tags" aria-label="Research themes"><span class="research-theme-tag">Bayesian Sampling</span></div>
+                  <div class="pub-tags" aria-label="Research topics"><span class="research-theme-tag">Sampling</span></div>
                   <div class="pub-body">
                     <h3>Spike-and-Slab Posterior Sampling in High Dimensions</h3>
                     <p class="pub-authors">Syamantak Kumar, Purnamrita Sarkar, Kevin Tian, <strong>Yusong Zhu</strong></p>
@@ -364,9 +377,9 @@
 
               <div class="pub-year-group">
                 <div class="pub-all-head"><span class="pub-all-label">2023</span></div>
-                <article class="pub-row">
+                <article class="pub-row" data-pub-id="mixing" data-topics="sampling">
                   <div class="pub-date">NeurIPS 2023</div>
-                  <div class="pub-tags" aria-label="Research themes"><span class="research-theme-tag">MCMC</span></div>
+                  <div class="pub-tags" aria-label="Research topics"><span class="research-theme-tag">Sampling</span></div>
                   <div class="pub-body">
                     <h3>Fast Conditional Mixing of MCMC Algorithms for Non-log-concave Distributions</h3>
                     <p class="pub-authors">Xiang Cheng, Bohan Wang, Jingzhao Zhang, <strong>Yusong Zhu</strong></p>
@@ -569,6 +582,74 @@
       });
 
       updateSectionHighlight();
+
+      const publicationPanel = document.getElementById("publication-list");
+      const publicationViews = document.querySelector(".pub-view-controls");
+      const publicationTopics = document.getElementById("publication-topics");
+      const publicationSummary = document.querySelector(".pub-results-summary");
+      const filteredPublications = publicationPanel.querySelector(".pub-filtered-list");
+      const publicationGroups = [...publicationPanel.querySelectorAll(".pub-year-group")].map((group) => ({
+        element: group,
+        rows: [...group.querySelectorAll(".pub-row")],
+      }));
+      const publications = publicationGroups.flatMap((group) => group.rows);
+      const viewButtons = [...publicationViews.querySelectorAll("[data-pub-view]")];
+      const topicButtons = [...publicationTopics.querySelectorAll("[data-pub-topic]")];
+      let publicationView = "selected";
+      let publicationTopic = "statistics";
+
+      const renderPublications = () => {
+        const byDate = publicationView === "date";
+        publicationPanel.dataset.view = publicationView;
+        publicationTopics.hidden = publicationView !== "topic";
+        filteredPublications.hidden = byDate;
+
+        // Move the same rows between views so links, BibTeX IDs, and state stay intact.
+        publicationGroups.forEach(({ element, rows }) => {
+          rows.forEach((row) => element.appendChild(row));
+          element.hidden = !byDate;
+        });
+
+        let visiblePublications = publications;
+        let label = "All publications by date";
+        if (publicationView === "selected") {
+          visiblePublications = publications
+            .filter((row) => row.dataset.selectedOrder)
+            .sort((a, b) => Number(a.dataset.selectedOrder) - Number(b.dataset.selectedOrder));
+          label = "Selected publications";
+        } else if (publicationView === "topic") {
+          visiblePublications = publications.filter((row) => row.dataset.topics.split(" ").includes(publicationTopic));
+          label = topicButtons.find((button) => button.dataset.pubTopic === publicationTopic).textContent;
+        }
+
+        if (!byDate) visiblePublications.forEach((row) => filteredPublications.appendChild(row));
+        publicationPanel.setAttribute("aria-label", label);
+        publicationSummary.textContent = `${label} · ${visiblePublications.length} publications`;
+        viewButtons.forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.pubView === publicationView));
+        });
+        topicButtons.forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.pubTopic === publicationTopic));
+        });
+        scheduleSectionHighlight();
+      };
+
+      viewButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          publicationView = button.dataset.pubView;
+          renderPublications();
+        });
+      });
+      topicButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          publicationTopic = button.dataset.pubTopic;
+          renderPublications();
+        });
+      });
+
+      renderPublications();
+      publicationViews.hidden = false;
+      publicationSummary.hidden = false;
 
       document.querySelectorAll(".pub-bib-toggle").forEach((toggle) => {
         toggle.addEventListener("click", () => {
