@@ -6,6 +6,7 @@
   --muted: #665d54;
   --accent: #bf5700;
   --accent-soft: #f5e1d2;
+  --link-blue: #2563eb;
   --line: #d9cbbb;
   --shadow: 0 10px 28px rgba(61, 42, 28, 0.06);
   --max-width: 1280px;
@@ -25,6 +26,7 @@ html[data-theme="dark"] {
   --muted: #c7b8a7;
   --accent: #ffb45c;
   --accent-soft: #3a2415;
+  --link-blue: #93c5fd;
   --line: #30271f;
   --shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
   --rail-news-paper: color-mix(in srgb, var(--surface) 88%, var(--bg));
@@ -458,6 +460,15 @@ html[data-theme="dark"] .social-link:focus-visible {
 .rail-news-text a:hover,
 .rail-news-text a:focus-visible {
   color: var(--accent);
+  text-decoration-color: currentColor;
+}
+
+a.person-link,
+.rail-news-text a.person-link {
+  color: var(--link-blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
   text-decoration-color: currentColor;
 }
 

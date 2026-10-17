@@ -2,7 +2,7 @@
 
 Hi, welcome to my corner of the Internet!
 
-I am a **Ph.D. student in Computer Science at [UT Austin](https://www.cs.utexas.edu/)**, advised by **[Prof. Kevin Tian](https://kjtian.github.io/)** and **[Prof. Eric Price](https://www.cs.utexas.edu/~ecprice/)**. Before joining UT Austin, I received my bachelor's degree in Software Engineering from Tsinghua University.
+I am a **Ph.D. student in Computer Science at UT Austin**, advised by **[Prof. Kevin Tian](https://kjtian.github.io/)** and **[Prof. Eric Price](https://www.cs.utexas.edu/~ecprice/)**. Before joining UT Austin, I received my bachelor's degree in Software Engineering from Tsinghua University.
 
 My research focuses on the **theoretical foundations of generative models**. I am also broadly interested in high-dimensional statistics, learning theory, and trustworthy machine learning. I aim to develop statistically principled methods with provable guarantees for sampling from, reasoning about, and evaluating modern generative systems.
 
