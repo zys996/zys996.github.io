@@ -45,7 +45,7 @@ Google Scholar: [Yusong Zhu](https://scholar.google.com/citations?user=abdQY_YAA
 2. Total Variation Distance Estimation in Autoregressive Models
 3. High-Magnetization Sampling at Low Temperatures: Ising Models and Bayesian Sparse Linear Regression
 
-**By topic:** Choose High-dimensional statistics, Sampling, or Model evaluation to show that topic's publications. Papers may belong to more than one topic. Selected and By date show all topic labels; By topic shows the chosen topic above the list.
+**By topic:** Choose High-dimensional statistics, Sampling, or Model evaluation to show that topic's publications. Papers may belong to more than one topic. Selected and By date show all topic labels; By topic shows the chosen topic above the list. No publication counts are displayed.
 
 **By date:** All publications, grouped by year and ordered by their initial arXiv submission, newest first.
 

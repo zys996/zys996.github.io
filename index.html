@@ -15,7 +15,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" href="tabicon.png" />
-    <link rel="stylesheet" href="styles.css?v=20261017-publications" />
+    <link rel="stylesheet" href="styles.css?v=20261017-publications-v2" />
     <script>
       document.documentElement.classList.add("js");
     </script>
@@ -180,8 +180,6 @@
               <button class="pub-topic-button" type="button" data-pub-topic="sampling" aria-pressed="false" aria-controls="publication-list">Sampling</button>
               <button class="pub-topic-button" type="button" data-pub-topic="evaluation" aria-pressed="false" aria-controls="publication-list">Model evaluation</button>
             </div>
-            <p class="pub-results-summary" role="status" aria-live="polite" aria-atomic="true" hidden></p>
-
             <div class="pub-panel" id="publication-list" aria-label="Publications by date" data-view="date">
               <div class="pub-filtered-list" hidden></div>
               <div class="pub-year-group">
@@ -586,7 +584,6 @@
       const publicationPanel = document.getElementById("publication-list");
       const publicationViews = document.querySelector(".pub-view-controls");
       const publicationTopics = document.getElementById("publication-topics");
-      const publicationSummary = document.querySelector(".pub-results-summary");
       const filteredPublications = publicationPanel.querySelector(".pub-filtered-list");
       const publicationGroups = [...publicationPanel.querySelectorAll(".pub-year-group")].map((group) => ({
         element: group,
@@ -624,7 +621,6 @@
 
         if (!byDate) visiblePublications.forEach((row) => filteredPublications.appendChild(row));
         publicationPanel.setAttribute("aria-label", label);
-        publicationSummary.textContent = `${label} · ${visiblePublications.length} publications`;
         viewButtons.forEach((button) => {
           button.setAttribute("aria-pressed", String(button.dataset.pubView === publicationView));
         });
@@ -649,7 +645,6 @@
 
       renderPublications();
       publicationViews.hidden = false;
-      publicationSummary.hidden = false;
 
       document.querySelectorAll(".pub-bib-toggle").forEach((toggle) => {
         toggle.addEventListener("click", () => {
